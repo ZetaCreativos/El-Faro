@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<title>Hamburgusería EL Faro</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-color: rgba(0, 0, 0, 1);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p></p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('faro').style.display='block'" class="w3-button w3-white">Hamburguesería El Faro</button></p>    
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-green">Hamburguesas</button></p>
+    <p><button onclick="document.getElementById('camperos').style.display='block'" class="w3-button w3-green">Camperos</button></p>
+    <p><button onclick="document.getElementById('pizza').style.display='block'" class="w3-button w3-green">Pizzas</button></p>
+    <p><button onclick="document.getElementById('perritos').style.display='block'" class="w3-button w3-green">Perritos</button></p>
+    <p><button onclick="document.getElementById('ensaladas').style.display='block'" class="w3-button w3-green">Ensaladas</button></p>  
+    <p><button onclick="document.getElementById('variedades').style.display='block'" class="w3-button w3-green">Variedades</button></p>  
+    <p><button onclick="document.getElementById('menu5').style.display='block'" class="w3-button w3-green">Bebidas</button></p>  
+    <p><button onclick="document.getElementById('info').style.display='block'" class="w3-button w3-white"><b>Información</b></button></p> 
+    <br><br><br><br>
+   </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge"></p>
+    <p class="w3-large"></p>
+  </div>
+</div>
+
+<!-- Menu Faro -->
+<div id="faro" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('faro').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Hamburguesería el Faro</h1>
+    </div>
+    <div class="w3-container">
+        <h4><b>MANTENGA LAS DISTANCIAS DE SEGURIDAD</b></h4>
+        <h5>En nuestras intalaciones realizamos un protocolo de limpieza y desinfección constante, siguiendo las recomendaciones de las autoridades sanitarias. </h5>
+        <h5><b>Horario</b></h5>
+        <h5><b>Martes a domingo </b>12:30 a 16:00 y 19:00 a 23:30hr</h5>
+        <br>
+        <h6><p class="w3-text-black"><b>los menús incluyen solo bebidas de 1,50€ para otras bebidas se añadirá la diferencia de precio</b></p></h6>
+        <br>
+      </div>
+   </div>
+</div>
+    
+    <!-- Menu info -->
+<div id="info" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('info').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Info</h1>
+    </div>
+    <div class="w3-container">
+        <h4><b>MANTENGA LAS DISTANCIAS DE SEGURIDAD</b></h4>
+        <h5>En nuestras intalaciones realizamos un protocolo de limpieza y desinfección constante, siguiendo las recomendaciones de las autoridades sanitarias. </h5>
+        <h5><b>Horario</b></h5>
+        <h5><b>Martes a domingo </b>12:30 a 16:00 y 19:00 a 23:30hr</h5>
+        <br>
+        <h6><p class="w3-text-black"><b>los menús incluyen solo bebidas de 1,50€ para otras bebidas se añadirá la diferencia de precio</b></p></h6>
+        <br>
+      </div>
+   </div>
+</div>
+
+<!-- Menu Hamburguesas -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Hamburguesas</h1>
+    <h3><p class="w3-text-white">Menú con patatas y refresco por 2,50 € más.</p></h3>     
+    </div>
+    <div class="w3-container">
+        <h5>00 De Buey <b>5,30 €</b></h5>
+        <p class="w3-text-grey">250 gr de Buey, queso de cabra, cebolla frita y salsa de miel y mostaza.</p>
+        <h5>1 Beyond <b>4,90 €</b></h5>
+        <p class="w3-text-grey">100% vegetal, lechuga, tomate, queso cheddar, huevo y mayonesa.</p>
+        <h5>2 Completa € <b>4,90 €</b></h5>
+        <p class="w3-text-grey">Queso, lechuga, tomate, ketchup y mayonesa.</p>
+        <h5>3 Sabrosa <b>5,60 €</b></h5>
+        <p class="w3-text-grey">220 gr de ternera, bacon, doble cheddar, huevo y lechuga en pan con sésamo con alioli.</p>
+        <h5>4 Americana <b>5,60 €</b></h5>
+        <p class="w3-text-grey">Doble ternera, bacon, doble cheddar, huevo, cebolla morada, lechuga y salsa bbq.</p>
+        <h5>5 El Faro <b>5,20 €</b></h5>
+        <p class="w3-text-grey">Queso, jamón, bacon, huevo, lechuga, tomate,  ketchup y mayonesa.</p>
+        <h5>6 Veggie <b>4,50 €</b></h5>
+        <p class="w3-text-grey">250 gr de Buey, queso de cabra, cebolla frita y salsa de miel y mostaza.</p>
+        <br>   
+        <h6><p class="w3-text-black"><b>todos los menús vienen acompañados de patatas fritas y bebida de 1,50€</b></p></h6>
+        <br>
+    </div>
+    
+   </div>
+</div>
+    
+    <!-- Menu Camperos -->
+<div id="camperos" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('camperos').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Camperos</h1>
+      <h3><p class="w3-text-white">Menú con patatas y refresco por 2,50 € más.</p></h3>
+    </div>
+    <div class="w3-container">
+        <h5>13 Pollo <b>4,60 €</b></h5>
+        <p class="w3-text-grey">Pollo, tomate, lechuga y mayonesa.</p>
+        <h5>14 Pollo Especial <b>5,30 €</b></h5>
+        <p class="w3-text-grey">Pollo,  jamón, queso, huevo, tomate, lechuga, cebolla y mayonesa.</p>
+        <h5>15 Pinchito <b>4,90 €</b></h5>
+        <p class="w3-text-grey">Pinchito de pollo, tomate, lechuga y mayonesa.</p>
+        <h5>16 Roquefort <b>4,90 €</b></h5>
+        <p class="w3-text-grey">Pollo, tomate, lechuga y salsa Roquefort.</p>
+        <h5>17 Jamón <b>4,60 €</b></h5>
+        <p class="w3-text-grey">Jamón, queso, lechuga, tomate  y mayonesa.</p>
+        <h5>18 Jamón Especial <b>5,30 €</b></h5>
+        <p class="w3-text-grey">Jamón, bacon, queso, huevo, tomate, lechuga, cebolla y mayonesa.</p>
+        <h5>19 Atún <b>4,90 €</b></h5>
+        <p class="w3-text-grey">Atún, queso, tomate, lechuga y mayonesa.</p>
+        <h5>21 Lomo <b>5,50 €</b></h5>
+        <p class="w3-text-grey">Lomo Sajonia, queso, pimiento frito y mayonesa.</p>
+        <h5>22 Shawarma <b>5,50 €</b></h5>
+        <p class="w3-text-grey"> Pollo, queso, lechuga, tomate, cebolla y yogur.</p>
+        <h5>26 Vegetariano <b>5,50 €</b></h5>
+        <p class="w3-text-grey">Lechuga, tomate, cebolla, falafel y cheddar vegano.</p>
+        <br>
+        <h6><p class="w3-text-black"><b>todos los menús vienen acompañados de patatas fritas y bebida de 1,50€</b></p></h6>
+        <br>
+      </div>
+    </div>
+</div>
+    
+    <!-- Menu Ensaladas -->
+<div id="ensaladas" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('ensaladas').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Ensaladas</h1>
+    </div>
+    <div class="w3-container">
+        <h5>81 Ensalada de la Casa <b>6.50 €</b></h5>
+        <p class="w3-text-grey">Tomate, lechuga, pepino, maiz y pollo.</p>
+        <h5>82 Ensalada Campera <b>8.00 €</b></h5>
+        <p class="w3-text-grey">Tomate, lechuga, tacos de Serrano, nueces, queso de cabra con vinagreta de miel y mostaza.</p>
+        <h5>83 Ensalada Falafel <b>7.00 €</b></h5>
+        <p class="w3-text-grey">Tomate, lechuga, pepino, cebolla y falafel.</p>
+        <h5>84 Ensalada César con Pollo <b>7.00 €</b></h5>
+        <p class="w3-text-grey">Pollo cajun, lechuga, queso parmesano, picatostes y salsa César.</p>
+        <h5>85 Ensalada Shawarma <b>7.00 €</b></h5>
+        <p class="w3-text-grey">Lechuga, tomate, cebolla, shawarma y salsa yogur.</p>
+        <br>
+    </div>
+   </div>
+</div>
+   
+    <!-- Menu Bebidas -->
+<div id="menu5" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('menu5').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Bebidas</h1>
+    </div>
+    <div class="w3-container">
+        <h5>Cocacola <b>1.50 €</b></h5>
+        <h5>Coca Cola Light <b>1.50 €</b></h5>
+        <h5>Coca Cola Zero <b>1.50 €</b></h5>
+        <h5>Coca Cola Sin Cafeína <b>1.50 €</b></h5>
+        <h5>7Up <b>1.50 €</b></h5>
+        <h5>Fanta Naranja <b>1.50 €</b></h5>
+        <h5>Fanta Limón <b>1.50 €</b></h5>
+        <h5>Nestea <b>2.00 €</b></h5>
+        <h5>Aquarius <b>2.00 €</b></h5>
+        <h5>Nestea <b>2.00 €</b></h5>
+        <h5>Tónica schweppes <b>2.00 €</b></h5>
+        <h5>Botella agua 500 ml <b>1.00 €</b></h5>
+        <h5>Zumo melocotón  <b>1.20 €</b></h5>
+        <h5>Zumo piña <b>1.20 €</b></h5>
+        <h5>Agua con gas <b>1.50 €</b></h5>
+        <h5>Cerverza Estrella galicia tercio <b>2.30 €</b></h5>
+        <h5>Cerveza Estrella galicia 0,0 <b>2.30 €</b></h5>
+        <h5>Cerveza Victoria lata <b>1.50 €</b></h5>
+        <h5>Botella tinto de la casa <b>2.70 €</b></h5>
+        <h5>Copa de vino tinto <b>2.20 €</b></h5>
+        <h5>Tinto de verano la casera <b>2.00 €</b></h5>
+        <h6><p class="w3-text-black"><b>los menús incluyen solo bebidas de 1,50€ para otras bebidas se añadirá la diferencia de precio</b></p></h6>
+        <br>
+        <br>
+    </div>
+   </div>
+</div>
+    
+        <!-- Menu Variedades -->
+<div id="variedades" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('variedades').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Variedades</h1>
+    </div>
+    <div class="w3-container">
+        <h5>23 Nuggets <b>6.00 €</b></h5>
+        <p class="w3-text-grey">7 unidades con patatas fritas.</p>
+        <h5>24 Croquetas <b>6.50 €</b></h5>
+        <p class="w3-text-grey">7 unidades con patatas fritas.</p>
+        <h5>25 Alitas de Pollo <b>4.50 €</b></h5>
+        <p class="w3-text-grey">4 Unidades.</p>
+        <h5>25 Alitas de Pollo <b>7.50 €</b></h5>
+        <p class="w3-text-grey">8 Unidades.</p>
+        <h5>25 Alitas de Pollo <b>10.50 €</b></h5>
+        <p class="w3-text-grey">12 Unidades.</p>
+        <h5>66 Ración de Patatas fritas rizadas  <b>4.00 €</b></h5>
+        <h5>67 Ración de Patatas bravas <b>5.50 €</b></h5>
+        <h5>68 Ración de Patatas fritas con bacon y queso <b>5.50 €</b></h5>
+        <h5>68 Cono de patatas <b>2.00 €</b></h5>
+        <h5>72 Nachos con carne <b>5.50 €</b></h5>
+        <p class="w3-text-grey">Lechuga, tomate, cebolla, shawarma y salsa yogur.</p>
+        <br>
+        </div>
+    <div class="w3-container w3-green">
+      <h1>Bocadillos y Shawarma</h1>
+      <h3><p class="w3-text-white">Menú con patatas y refresco por 2,50 € más.</p></h3>
+    </div>
+     <div class="w3-container">
+        <h5>62 Rollo shawarma de pollo <b>4.50 €</b></h5>
+        <p class="w3-text-grey">lechuga, tomate, cebolla y salsa yogur.</p>
+         <h5>63 Rollo falafel <b>4.50 €</b></h5>
+        <p class="w3-text-grey">falafel, lechuga, tomate y cebolla.</p>
+         <h5>65 Serranito de Pollo <b>5.40 €</b></h5>
+        <p class="w3-text-grey">tomate, jamón Serrano, pimiento frito y mayonesa.</p>
+         <h5>73 Bocadillo de pollo cajun <b>5.50 €</b></h5>
+        <p class="w3-text-grey">pollo cajun, bacon, queso, lechuga y mayonesa en pan baguette.</p>
+        <br>
+         <h6><p class="w3-text-black"><b>todos los menús vienen acompañados de patatas fritas y bebida de 1,50€</b></p></h6>
+        <br>
+    </div>
+   </div>
+</div>
+    
+    <!-- Menu Pizzas -->
+<div id="pizza" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('pizza').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Pizzas</h1>
+      <h3><p class="w3-text-white">Menú con patatas y refresco por 2,50 € más.</p></h3>
+    </div>
+     <div class="w3-container">
+        <h5>30 Margarita <b>6,00 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso y orégano.</p>
+        <h5>31 Vesubio <b>6,50 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso y jamón.</p>
+        <h5>32 Champiñones <b>6,50 €</b></h5>
+        <p class="w3-text-grey"> Tomate, queso y champiñones.</p>
+        <h5>33 Napolitana <b>7,50 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso, anchoas y aceitunas verdes.</p>
+        <h5>34 El Faro <b>7,50 €</b></h5>
+        <p class="w3-text-grey">Tomate, doble queso, bacon, jamón y huevo.</p>
+        <h5>36 Serranita <b>7,50 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso, jamón serrano y tomate en rodajas.</p>
+        <h5>37 Al Tonno <b>6,50 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso y atún.</p>
+        <h5>38 Del Mar <b>8,00 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso, atún, gambas y bocas de mar.</p>
+        <h5>39 Barbacoa <b>7,50 €</b></h5>
+        <p class="w3-text-grey"> Tomate, queso, ternera y salsa barbacoa.</p>
+        <h5>40 Columbus <b>8,00 €</b></h5>
+        <p class="w3-text-grey"> Tomate, queso, jamón, pollo, maíz y huevo.</p>
+         <h5>41 Shawarma <b>7,50 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso, shawarma de pollo y cebolla.</p>
+         <h5>42 4 Quesos <b>7,50 €</b></h5>
+        <p class="w3-text-grey">Tomate, variedad de quesos + roquefort.</p>
+         <h5>43 Diavola <b>7,50 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso, pechuga de pollo picante y salchicha.</p>
+         <h5>44 Pepperoni <b>7,50 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso y pepperoni.</p>
+         <h5>45 Caprichosa <b>8,00 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso, jamón, champiñones y aceitunas negras.</p>
+         <h5>46 Campesina <b>8,00 €</b></h5>
+        <p class="w3-text-grey">Tomate, queso, cebolla, champiñones, espárragos y pimiento rojo.</p>
+         <h5>48 Carbonara <b>7,50 €</b></h5>
+        <p class="w3-text-grey">Base Blanca. Nata, cebolla, bacon y queso.</p>
+         <h5>51 La Farola <b>8,00 €</b></h5>
+        <p class="w3-text-grey">Base Blanca. Pollo, queso de cabra, queso mozzarella, queso  parmesano y tomate.</p>
+         <h5>43 Vegana <b>7,70 €</b></h5>
+        <p class="w3-text-grey">Tomate natural en rodajas, cebolla, champiñones frescos, garbanzos y aceitunas negras.</p>
+         <br>
+         <h6><p class="w3-text-black"><b>todos los menús vienen acompañados de patatas fritas y bebida de 1,50€</b></p></h6>
+        <br>
+      </div>
+    </div>
+</div>
+
+<!-- Menu perritos -->
+<div id="perritos" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('perritos').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Perritos</h1>
+        <h3><p class="w3-text-white">Menú con patatas y refresco por 2,50 € más.</p></h3>
+    </div>
+     <div class="w3-container">
+        <h5>7 Perrito Vegetal <b>3,50 €</b></h5>
+        <p class="w3-text-grey">salchicha de pavo, cebolla, tomate natural, ketchup y mayonesa.</p>
+         <h5>8 Perrito de la Casa <b>4,50 €</b></h5>
+        <p class="w3-text-grey">salchicha de pavo, bacon, queso,  ketchup y mayonesa.</p>
+         <h5>10 Perrito Simple <b>2,80 €</b></h5>
+        <p class="w3-text-grey">salchicha de pavo,  ketchup  y mayonesa.</p>
+         <br>
+         <h6><p class="w3-text-black"><b>todos los menús vienen acompañados de patatas fritas y bebida de 1,50€</b></p></h6>
+        <br>
+     </div>
+  </div>
+    
+    <!-- Menu2 Sorbetes -->
+<div id="menu2" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-green w3-display-container">
+      <span onclick="document.getElementById('menu2').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
+      <h1>Sorbetes</h1>
+    </div>
+    <div class="w3-container">
+        <h5>Limón y hierbabuena <b>3.50 €</b></h5>
+        <h5>Naranja natural <b>3.50 €</b></h5>
+        <h5>Cava y helado de limón <b>6.00 €</b></h5>
+        <br>
+    </div>
+  </div>
+</div>
+    
+    
+
+</body>
+</html>
+
